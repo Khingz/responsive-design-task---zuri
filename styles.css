@@ -371,15 +371,16 @@ div.footer h6 {
         cursor: pointer;
     }
 
-    ul.nav-links {
+     ul.nav-links {
         position: absolute;
-        top: 100%;
-        right: 5%;
+        top: 70%;
         flex-direction: column;
         background-color: #304353;
-        padding: 1.2rem;
-        margin-right: -500px;
+        /* padding: 1rem; */
+        width: 0;
+        text-align: center;
         transition: .5s ease-in-out;
+        overflow: hidden;
     }
 
     ul li {
@@ -460,7 +461,9 @@ div.footer h6 {
     }
 
     .show {
-        margin-right: 0px !important;
+        /* margin-right: 0px !important; */
+        padding: 1rem !important;
+        width: 100% !important;
     }
 }
 
